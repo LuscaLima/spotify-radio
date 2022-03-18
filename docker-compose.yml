@@ -4,7 +4,7 @@ services:
     image: spotify-radio
     build: .
     environment:
-      - PORT=value
+      - PORT=3000
     command:
       - npm
       - run
